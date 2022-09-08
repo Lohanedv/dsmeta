@@ -1,8 +1,12 @@
+import NotificationButton from "./components/NotificationButton";
 
 function App() {
-  return(
-    
-  )
+  return (
+    <>
+      <NotificationButton />
+      <NotificationButton />
+    </>
+  );
 }
 
-export default App
+export default App;
